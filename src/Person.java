@@ -26,7 +26,7 @@ public class Person {
         if(this.age > 0) intro+=" I am "+this.age+" years old.";
         if(this.gender != null) intro+=" I am "+this.gender+".";
         if(this.name == null && this.age==0 && this.gender == null) intro = "Hello. Please go away.";
-
+/*
         if(this.name != null){
             if(this.age > 0){
                 if(this.gender != null) intro = "Hello. I am "+this.name+", "+this.age+" years old and "+this.gender+".";
@@ -46,7 +46,7 @@ public class Person {
                 if(this.gender != null);
                 else;
             }
-        }
+        }*/
         System.out.println(intro);
 
     }
