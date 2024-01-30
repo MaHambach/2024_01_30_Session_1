@@ -23,5 +23,8 @@ public class Main {
         Person person3 = new Person("Olga", 31, "female");
         person3.introduction();
 
+        Person person4 = new Person("Rael", "female");
+        person4.introduction();
+
     }
 }
